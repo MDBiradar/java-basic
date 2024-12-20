@@ -1,6 +1,6 @@
 package Helper;
 import MethodOverriding.*;
-import Threads.*;
+import ThreadConcept.*;
 
 public class Helper {
 
