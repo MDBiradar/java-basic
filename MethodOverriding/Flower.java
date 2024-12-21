@@ -1,7 +1,7 @@
 package MethodOverriding;
 
 public class Flower {
-    public void Show() {
+    public void show() {
         System.out.println("In Flower Show()");
     }
 }

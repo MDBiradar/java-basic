@@ -2,7 +2,7 @@ package ThreadConcept;
 
 public class Threading {
 
-    public void ThredingStart() {
+    public void thredingStart() {
         try {
             Counter c = new Counter();
             Runnable notepad = new Notepad(c);
@@ -15,7 +15,7 @@ public class Threading {
             // Added sleep
             Thread.sleep(1000);
             System.out.println("Counter: " + c.counter);
-            c.ShowCount();
+            c.showCount();
         } catch (InterruptedException e) {
             e.printStackTrace();
         } catch (Exception e) {

@@ -7,7 +7,7 @@ public class Counter {
         this.counter++;
     }
 
-    public void ShowCount() {
+    public void showCount() {
         System.out.println("Result :" + this.counter);
     }
 
